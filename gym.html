@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POWER GYM</title>
+    <style>
+    @media screen {
+        
+    }
+      body {
+        /* font-family: 'dancing script' 'rubics bubbles' 'josefin sans' system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        font-family: 'Dancing Script', cursive;
+        padding: 0px;
+        margin: 0px;
+        background: url(https://images.pexels.com/photos/28054/pexels-photo-28054.jpg?auto=compress&cs=tinysrgb&w=600);
+        background-size: 1222px;
+        /* height: 200px;
+            width: 1000px; */
+      }
+      .name {
+        color: aliceblue;
+        font-size: 16px;
+      }
+      .logo {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        text-align: center;
+        left: 31px;
+        top: 20px;
+      }
+      img {
+        width: 70px;
+        filter: invert(86%);
+        align-items: center;
+      }
+      .navbar {
+        display: block;
+        width: 33%;
+        margin: 15px auto;
+        /* border: 12px solid green; */
+      }
+      .nav {
+        display: inline-block;
+      }
+      a:hover {
+        color: rgb(255, 191, 0);
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .nav li {
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .main {
+        position: absolute;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        right: 20px;
+      }
+      .btn {
+        margin-left: 9px;
+        margin-left: 2px;
+        background-color: black;
+        color: white;
+        border: 1px solid rgba(234, 221, 101, 0.608);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: rgb(200, 195, 195);
+      }
+      .container {
+        color: aliceblue;
+        border: 2px solid white;
+        margin: 100px 118px;
+        padding: 38px 60px;
+        width: 33%;
+        border-radius: 5px;
+      }
+      .forms {
+        margin: 2px 2px;
+      }
+      .forms input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 20px auto;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 17px;
+      }
+      .container h2 {
+        text-align: center;
+      }
+      .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+        padding: 8px;
+        border-radius: 7px;
+      }
+      .chat {
+        text-align: center;
+        color: rgb(237, 195, 87);
+        display: inline-block;
+        border: 2px solid rgb(255, 191, 0);
+        position: absolute;
+        right: 60px;
+        bottom: 50px;
+        width: 96px;
+        height: 83px;
+        /* height: 3;  */
+      }
+    </style>
+  </head>
+  <body>
+    
+    
+    <header>
+      <div class="logo">
+        <img
+          src="https://www.shutterstock.com/image-vector/fitness-gym-logo-600w-705978943.jpg"
+          alt=""
+        />
+        <div><span class="name">power&#128165;gym</span></div>
+      </div>
+      <div class=" navbar navbar-expand-lg bg-light">
+        <ul class="nav navbar-expand-lg bg-ligh">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">contents</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">sign up/in</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <button class="btn">packages &#127880;</button>
+        <button class="btn">locate &#128510;</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Join the Best GYM for Best Gains</h2>
+      <form>
+        <div class="forms">
+          <input type="text" placeholder="enter your name" />
+        </div>
+        <div class="forms">
+          <input type="text" placeholder="enter your age" />
+        </div>
+        <div class="forms">
+          <input type="text" placeholder="enter your gender" />
+        </div>
+        <div class="forms">
+          <input type="text" placeholder="enter your locality" />
+        </div>
+        <div class="forms">
+          <input type="text" placeholder="enter your phone" />
+        </div>
+        <div class="forms">
+          <input type="text" placeholder="enter your email" />
+        </div>
+        <button class="btn">submit</button>
+      </form>
+      <!-- <div class="chat">this is a chat box</div> -->
+    </div>
+    <div class="chat"><a href="#">this is a chat box</a></div>
+  </body>
+</html>
